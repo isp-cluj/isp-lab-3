@@ -15,5 +15,17 @@ A class Tree contains:
     * for toString() method
     * for the default constructor
 
+## Exercise 2
+
+A class called Rectangle contains:
+- Three private instance variables: length (of type int) width(of type int) and color (of type String), with default value of 2, 1 and “red”, respectively.
+- One overloaded constructor which sets the length and the width;
+- One overloaded constructor which sets the length, the width and the colors;
+- Five public methods: getLength(), getWidth(), getColor(), getPerimeter() and getArea().
+
+1. Write a class which models the class Rectangle.
+2. Create a rectangle object and call all his methods and print out the values(in main)
+3. Write a class RectangleTest which test Rectangle class.
+    * write tests for every constructor and for every method
 
 
