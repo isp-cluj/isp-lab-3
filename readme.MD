@@ -69,6 +69,12 @@ A class VendingMachine contians:
 - A method displayCredit - display current available credit; 
 - A method userMenu() - provide a text based menu for interacting with vending machine. 
 
-1. Write the code for VendingMachine. Consider adding any additional methods and attributes required to implement the vending machine behaviour.
+1. Write the code for VendingMachine. Consider adding any additional methods and attributes (if requried) to implement the vending machine behaviour.
 2. Write a test class (called VendingMachineTest) to test methods: displayProducts, insertCoint, selectProduct.
 3. Create a vending machine object and test it in main.
+
+# Exercise 6 
+
+Create a new version of VendingMachine and transform the class in a singleton. References:
+- https://sourcemaking.com/design_patterns/singleton 
+- https://sourcemaking.com/design_patterns/singleton/java/2 
