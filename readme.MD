@@ -42,7 +42,7 @@ A class called FootballPlayer contains:
 
 1. Write the FootballPlayer class.
 2. Also write a test program called FootballPlayerTest to test the constructor and all public methods.
-3. Create a footballPlayer object and call all his methods and print out the values(in main). Make the player to score a random number of goals between 15-30(consider that the player is not from Liga1) then call the toString() method.
+3. Create a footballPlayer object and call all his methods and print out the values(in main). Make the player to score a random number of goals between 15-30(consider that the player is not from Liga1) then call the toString() method (in main).
 
 ## Exercise 4
 
@@ -58,4 +58,17 @@ A class called MyPoint, which models a 3D point with x, y and z coordinates cont
 
 1. Write the code for the class MyPoint.
 2. Write a test class (called MyPointTest) to test all the methods defined in the class.
-3. Create two point objects, calculate and display distance between them. 
+3. Create two point objects, calculate and display distance between them (in main). 
+
+# Exercise 5 
+
+A class VendingMachine contians:
+- A method displayProducts() - display available products and corresponding selection id; 
+- A method insertCoint(int value) - add coins to current vending machine credit;
+- A method String selectProduct(int id) - return a String representing name of the selected product or an error message; 
+- A method displayCredit - display current available credit; 
+- A method userMenu() - provide a text based menu for interacting with vending machine. 
+
+1. Write the code for VendingMachine. Consider adding any additional methods and attributes required to implement the vending machine behaviour.
+2. Write a test class (called VendingMachineTest) to test methods: displayProducts, insertCoint, selectProduct.
+3. Create a vending machine object and test it in main.
