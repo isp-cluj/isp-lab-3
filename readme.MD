@@ -38,7 +38,8 @@ A class called Vehicle contains:
 1. Write the Vehicle class.
 2. Create two Vehicle object and test getter and setter methods (in main).
 3. Compare and test if the two objects created in step before are equals (using public boolean equals(Object o) method).
-3. Write a test class (called VehicleTest) to test toString() method.
+4. Use a static atribute in Vehicle class to test number of Vehicle objects created. Add static method in Vehicle class which display number of objects created of type Vehile.
+5. Write a test class (called VehicleTest) to test toString() method.
 
 ## Exercise 4
 
