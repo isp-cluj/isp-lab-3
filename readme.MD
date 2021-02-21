@@ -12,7 +12,6 @@ A class Tree contains:
 2. Write a class TreeTest which test the Tree class. You have to write three tests:
     * for grow(int meters) method
     * for toString() method
-    * for the default constructor
 3. Create a tree object and call all his methods and print out the values(in main)
 
 ## Exercise 2
@@ -24,25 +23,22 @@ A class called Rectangle contains:
 - Five public methods: getLength(), getWidth(), getColor(), getPerimeter() and getArea().
 
 1. Write a class which models the class Rectangle.
-2. Write a class RectangleTest which test Rectangle class.
-    * write tests for every constructor and for every method
-3. Create a rectangle object and call all his methods and print out the values(in main)
+2. Create a rectangle object, call all his methods and print out the values(in main)
 
 
 ## Exercise 3 
 
-A class called FootballPlayer contains:
-- Four private instance variables: name (String), team (String), goalsScored (int) and gender (char of either 'M' or 'F');
-- One constructor to initialize the name, team and gender with the given values, goalsScored will be 0;
-    * public FootballPlayer(String name, String team, char gender) {……}
-    * There is no default constructor for FootballPlayer, as there are no defaults for name, team and gender
-- Public getters/setters: getName(), getTeam(), setTeam(String team), getGoalsScored(), scoreAGoal() and getGender();
-    * There are no setters for name and gender, as these attributes cannot be changed.
-- A toString() method that returns “{Football player-name} ({gender}) scored {goalsScored} goals for team ”, e.g., “Cristiano Ronaldo (M) scored 20 goals at Juventus”.
+A class called Vehicle contains:
+- Four private instance variables: model (String), type (String), speed (int) and fuelType (char of either 'D' or 'B');
+- One constructor to initialize the attributes;
+    * There is no default constructor
+- Public getters/setters for all attribtes; 
+  A toString() method that returns “{mode} ({type}) speed {teem} ”, e.g., “Dacia (Logan) speed 150 fuel type B”.
 
-1. Write the FootballPlayer class.
-2. Also write a test program called FootballPlayerTest to test the constructor and all public methods.
-3. Create a footballPlayer object and call all his methods and print out the values(in main). Make the player to score a random number of goals between 15-30(consider that the player is not from Liga1) then call the toString() method (in main).
+1. Write the Vehicle class.
+2. Create two Vehicle object and call all his methods and print out the values(in main).
+3. Compare and test if the two objects created in steb before are equals (using public boolean equals(Object o) method).
+3. Write a test class (called VehicleTest) to test toString() method.
 
 ## Exercise 4
 
@@ -57,7 +53,7 @@ A class called MyPoint, which models a 3D point with x, y and z coordinates cont
 - An overloaded distance(MyPoint another) that returns the distance from this point to the given MyPoint instance another.
 
 1. Write the code for the class MyPoint.
-2. Write a test class (called MyPointTest) to test all the methods defined in the class.
+2. Write a test class (called MyPointTest) to test distance(...) method.
 3. Create two point objects, calculate and display distance between them (in main). 
 
 # Exercise 5 
