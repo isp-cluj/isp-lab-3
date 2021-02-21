@@ -36,8 +36,8 @@ A class called Vehicle contains:
   A toString() method that returns “{mode} ({type}) speed {teem} ”, e.g., “Dacia (Logan) speed 150 fuel type B”.
 
 1. Write the Vehicle class.
-2. Create two Vehicle object and call all his methods and print out the values(in main).
-3. Compare and test if the two objects created in steb before are equals (using public boolean equals(Object o) method).
+2. Create two Vehicle object and test getter and setter methods (in main).
+3. Compare and test if the two objects created in step before are equals (using public boolean equals(Object o) method).
 3. Write a test class (called VehicleTest) to test toString() method.
 
 ## Exercise 4
